@@ -25,3 +25,12 @@
 	color: white;
 	font-size: 30px;
 }
+.stacks {
+	position: relative;
+	border: 1px solid blue;
+	
+}
+.boxes {
+	position: relative;
+	display: inline;
+}
