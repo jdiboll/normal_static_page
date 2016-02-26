@@ -1,0 +1,27 @@
+.header {
+	margin: 0;
+}
+.header span {
+	padding: 10px;
+}
+.tree {
+	height: 250px;
+	background-image: url(http://i.imgur.com/lEi9f1A.jpg);
+	/*display: inline;*/
+	/*margin-bottom: 250px;*/
+	/*text-overflow: hidden;*/
+	text-align: center;
+	/*padding-top: 53px;*/
+	/*padding-bottom: 53px;*/
+	position: relative;
+}
+.tree span {
+	/*z-index: 1;*/
+	/*text-align: center;*/
+	position: absolute;
+	top: 98px;
+	bottom: 50%;
+	left: 532px;
+	color: white;
+	font-size: 30px;
+}
