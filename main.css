@@ -26,11 +26,25 @@
 	font-size: 30px;
 }
 .stacks {
+	/*margin-left: auto;*/
+	/*margin-right: auto;*/
 	position: relative;
-	border: 1px solid blue;
-	
+	/*border: 1px solid blue;*/
+	float: left;
+	margin-top: 40px;
+	margin-right: 63px;
+	margin-left: 22%;
 }
 .boxes {
-	position: relative;
+	margin-left: 5px;
+	margin-right: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	/*position: absolute;*/
 	display: inline;
+	text-align: center;
 }
+.prose {
+	clear: both;
+	font-size: 11px;
+	/*list-style: none;*/}
