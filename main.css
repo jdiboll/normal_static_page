@@ -44,6 +44,32 @@
 	display: inline;
 	text-align: center;
 }
+.list {
+	padding: 0;
+	list-style-type: none;
+}
+.abe {
+	background-color: #4f934e;
+	color: white;
+}
+.abe span {
+	font-weight: lighter;
+}
+.bill {
+	background-color: #2a4787;
+	color: white;
+	font-family: Helvetica;
+}
+.bill span {
+	font-weight: lighter;
+}
+.joe{
+	background-color: #111111;
+	color: white;
+}
+.joe span {
+	font-weight: lighter;
+}
 .prose {
 	clear: both;
 	/*float: left;*/
