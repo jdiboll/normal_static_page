@@ -1,5 +1,5 @@
 .header {
-	margin: 0;
+	margin: 5px;
 }
 .header span {
 	padding: 10px;
@@ -33,10 +33,12 @@
 	float: left;
 	margin-top: 40px;
 	margin-right: 63px;
-	margin-left: 22%;
+	margin-left: 26%;
 }
 .boxes {
-	margin-left: 5px;
+	width: 170px;
+	margin-top: 0;
+	margin-left: 15px;
 	margin-right: 5px;
 	border: 1px solid #ccc;
 	float: left;
@@ -44,10 +46,24 @@
 	display: inline;
 	text-align: center;
 }
+.boxes p {
+	margin-top: 0;
+	padding-top: 16px;
+}
 .list {
+	margin-top: 0;
 	padding: 0;
 	list-style-type: none;
+	/*border-bottom-color: #ccc;*/
 }
+.list li {
+	/*border-bottom-color: #ccc;*/
+	padding:3px;
+	background-color: #f7f7f7;
+	border:1px solid #ededed;
+	font-size: 9px;
+}
+
 .abe {
 	background-color: #4f934e;
 	color: white;
@@ -55,13 +71,19 @@
 .abe span {
 	font-weight: lighter;
 }
+.abe h1 {
+	font-size: 65px;
+}
 .bill {
 	background-color: #2a4787;
 	color: white;
-	font-family: Helvetica;
+	font-family:;
 }
 .bill span {
 	font-weight: lighter;
+}
+.bill h1 {
+	font-size: 65px;
 }
 .joe{
 	background-color: #111111;
@@ -69,6 +91,12 @@
 }
 .joe span {
 	font-weight: lighter;
+}
+.joe h1 {
+	font-size: 65px;
+}
+.choose {
+	padding-bottom: 16px;
 }
 .prose {
 	clear: both;
